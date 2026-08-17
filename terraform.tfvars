@@ -6,7 +6,15 @@ Resourcegroupdetails = {
       environment = "dev"
       manged_by   = "terraform"
     }
+      rg2 = {
+    name     = "rgmk2_dev"
+    location = "southindia" 
+    tags = {
+      environment = "dev"
+      manged_by   = "terraform"
+    }
   }
+  
 }
 Vnetdetails = {
   vnet1 = {
@@ -229,3 +237,4 @@ virtual_machine = {
 
 
 
+}
